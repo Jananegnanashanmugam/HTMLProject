@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./Search.css" />
+    <link rel="stylesheet" href="./Global.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/font-awesome/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navitem-margin">
+      <a class="navbar-brand" href="#">
+        <img
+          src="https://www.clipartkey.com/mpngs/m/36-364919_nuvola-apps-bookcase-library-management-system-logo-png.png"
+          width="40"
+          height="30"
+          alt=""
+        />
+      </a>
+      <!-- <a class="navbar-brand" href="#"
+        ><i class="fa fa-address-book" aria-hidden="true"></i
+      ></a> -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active" style="word-wrap: normal">
+            <a class="nav-link" href="#">About Library</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Rules and Regulation</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Price Card</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Search</a>
+          </li>
+          <li class="nav-item active navcolor">
+            <a class="nav-link" href="#">Add Book</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <h2>Search Book</h2>
+      <br />
+      <div class="form-group mx-sm-3 row">
+        <label for="book-title" class="col-mb-2 col-form-label text-truncate"
+          >Book ID :
+        </label>
+        <div class="col-mb-2">
+          <input
+            type="text"
+            class="form-control"
+            id="bookid"
+            name="bookid_Txt"
+          />
+        </div>
+      </div>
+      <div class="form-group mx-sm-3 row">
+        <label for="bojok-title" class="col-mb-2 col-form-label text-truncate"
+          >Book Title :
+        </label>
+        <div class="col-mb-2">
+          <input
+            type="text"
+            class="form-control"
+            id="book-title"
+            name="book-title_txt"
+          />
+        </div>
+      </div>
+      <div class="form-group mx-sm-3 row">
+        <label for="book-title" class="col-mb-2 col-form-label text-truncate"
+          >Book Desc :
+        </label>
+        <div class="col-mb-2">
+          <input
+            type="text"
+            class="form-control"
+            id="book-desc"
+            name="bookdescription-title"
+          />
+        </div>
+      </div>
+      <div class="form-group mx-sm-3 row">
+        <label for="book-title" class="col-mb-2 col-form-label text-truncate"
+          >Author Name :
+        </label>
+        <div class="col-mb-2">
+          <input
+            type="text"
+            class="form-control"
+            id="AuthorName"
+            name="AuthorName_Title"
+          />
+        </div>
+      </div>
+      <div class="form-group mx-sm-3 row">
+        <label for="book-title" class="col-mb-2 col-form-label label-text">
+          Number of Book Available :
+        </label>
+        <div class="col-mb-2">
+          <input
+            type="text"
+            class="form-control"
+            id="NoOfBooksAvailable"
+            name="Books-Available-txt"
+          />
+        </div>
+      </div>
+      <div class="form-group mx-sm-3 row">
+        <div class="col-mb-2"></div>
+        <div class="col-mb-2">
+          <button
+            type="button"
+            style="margin-left: 150px"
+            class="btn btn-round btn-md"
+          >
+            Add Book
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
